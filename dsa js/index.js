@@ -98,12 +98,12 @@
 // console.log(result);                        // Ans
 
 
-// Q 15
-let x = 'hello'
+// // Q 15
+// let x = 'hello'
 
-let a = x.split('')
-console.log(a);
+// let a = x.split('')
+// console.log(a);
 
-for(let i = 0; i > a.length; i++){
-    for(let j = j >)
-}
+// for(let i = 0; i > a.length; i++){
+//     for(let j = j >)
+// }
