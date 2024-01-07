@@ -8,21 +8,20 @@ const reducer = (state , action) =>{
             switch(action.type){
                 case 'INCREMENT':
                     return {...state, counter: state.counter+1}
-
                 case 'DECREMENT':
                     return {...state, counter: state.counter-1}
                     default:
-                     return  state;
+                     return state;
             }
 }
 
 
 
 function Counter({children}) {
-    const {state , dispatch} = useReducer(reducer, Intialstate)
-  return (<>
-    <myContext.Provider state = {{state, dispatch}}>{children}</myContext.Provider>
-    </>
+    const [state , dispatch] = useReducer(reducer, Intialstate)
+  return (
+    <myContext.Provider value = {{state, dispatch}}>{children}</myContext.Provider>
+    
   )
 }
 

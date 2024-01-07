@@ -20,7 +20,24 @@
 
 
 
+// // Q 2
 
+// let x = 121;
+// let palidrom= false
+// x = x.toString()
+// console.log(x);
+// if(x.charAt(0)==x.charAt(x.length-1)){
+//     palidrom = true;
+// }
+// else{
+//     palidrom = false;
+// }
+// console.log(x);
+// x= Number(x)
+
+// console.log(x);
+
+// console.log(palidrom);
 
 // // Q 3 *****************8
 
@@ -36,7 +53,20 @@
 
 // console.log(sum(arr));
 
+// // Q 4
+// let str = 'devesh';
+// function palidrom(str){
+//     let palidrome = false; 
+//     if(str.charAt(0) == str.charAt(str.length-1)){
+//         palidrome = true;
+//     }
+//     else{
+//         palidrome
+//     }
+//     return palidrome;
+// }
 
+// console.log(palidrom(str));
 
 // // Q 5 
 // let arr = [2, 4, 6, 7];
@@ -60,22 +90,68 @@
 
 
 // function remvDup(arr){
-//     let removedDuplicate = []
-//     for(let i = 0; i>arr.length; i++){
-//         for(let j = i + 1; j>arr.length; j++){
-//             if(arr[i] == arr[j]){
-//                 removedDuplicate.push(arr[i])
-
-//             }
+//     let duplicate = []
+//    for(let i =0; i<arr.length; i++){
+//     for(let j = i+1; j<arr.length; j++){
+//         if(arr[i] == arr[j]){
+//             duplicate.push(arr[i]);
 //         }
 //     }
-//     return removedDuplicate
+//    }
+
+//    return duplicate;
 // }
 
 // console.log(remvDup(arr));
 
+// Q 7
 
+// let num = 8;
 
+// function fact(num){
+//     let factorial = num;
+//     for(let i= num-1; i>=1 ; i--){
+//         factorial = factorial*i
+//     }
+//     return factorial;
+// }
+
+// console.log(fact(num));
+
+// // // Q 8
+// let num = 5;
+// function isPrime(num){
+//     let isPrime = true;
+//     for(let i = 2; i<num-1; i++){
+//         if(num%i==0){
+//             isPrime=false;
+//         }
+//         else{
+//             isPrime
+//         }
+//     }
+
+//     return isPrime;
+// }
+
+// console.log(isPrime(num));
+
+// // Q 9
+
+// let num = 5;
+
+// function FindFact(num){
+//     let factNumber = 1;
+
+//     while (num>=1) {
+//         factNumber = factNumber*num;
+//         num--
+//     };
+
+//     return factNumber;
+// }
+
+// console.log(FindFact(num));
 
 // // Q 10
 
@@ -98,12 +174,15 @@
 // console.log(result);                        // Ans
 
 
-// // Q 15
+// // // Q 15
 // let x = 'hello'
 
 // let a = x.split('')
 // console.log(a);
 
-// for(let i = 0; i > a.length; i++){
-//     for(let j = j >)
-// }
+// a = [...new  Set(a)]
+// a = a.join('')
+// console.log(a);
+
+
+  

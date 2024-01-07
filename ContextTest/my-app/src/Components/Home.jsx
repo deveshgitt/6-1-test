@@ -1,10 +1,10 @@
 import React, { createContext, useContext } from 'react'
-import { myContext } from './Counter.js'
+import { myContext } from './Counter'
 
 
 
 function Home() {
-    let {state, dispatch} = useContext(myContext)
+    const {state, dispatch} = useContext(myContext)
   return (
     <>
     <div>Home</div>
