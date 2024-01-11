@@ -163,6 +163,7 @@
 // }
 
 
+
 // console.log(sortedArr(arr));  // Ans
 
 // // Q 12
@@ -184,5 +185,3 @@
 // a = a.join('')
 // console.log(a);
 
-
-  
